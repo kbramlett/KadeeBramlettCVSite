@@ -339,7 +339,9 @@ th {
 label {
   display: inline-block;
 }
-
+.reviews-button {
+  width: 100%;
+}
 #backToTopButton {
   position:fixed; /*Fixed Sticky position*/
   bottom: 20px; /* Place the button at the bottom of the page */
