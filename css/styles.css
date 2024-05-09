@@ -342,6 +342,9 @@ label {
 .reviews-button {
   width: 100%;
 }
+.email-address {
+  font-size: .9em;
+}
 #backToTopButton {
   position:fixed; /*Fixed Sticky position*/
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -1080,7 +1083,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .col-md {
     flex: 1 0 0%;
   }
@@ -4228,6 +4231,7 @@ textarea.form-control-lg {
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   color: var(--bs-card-color);
 }
+
 
 .card-title {
   margin-bottom: var(--bs-card-title-spacer-y);
@@ -7933,7 +7937,7 @@ textarea.form-control-lg {
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
-}
+} 
 
 .py-0 {
   padding-top: 0 !important;
